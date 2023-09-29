@@ -38,7 +38,7 @@ articles = "\n\n".join(f"[{title}]({link})" for title, link in md_titles)
 
 index_string = f"""
 
-# [Writing](https://lopoukhine.com)
+# [Writing](../index.html)
 
 {articles}
 
