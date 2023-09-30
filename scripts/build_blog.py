@@ -10,11 +10,8 @@ md_files = sorted(writing_folder.glob("*.md"))
 
 # Footer to be appended to each post
 
-footer = """
-
-[Writing](./index.html)
-
-"""
+with open(pathlib.Path() / "footer.html", "r") as f:
+    footer = f.read()
 
 # For each markdown file, get the title, and write the html version to disk
 
