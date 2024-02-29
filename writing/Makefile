@@ -16,7 +16,7 @@ HTML_FILES := $(patsubst %.md,%.html,$(MD_FILES))
 
 # Generate HTML files from Markdown using the provided command
 %.html: %.md $(FOOTER_FILE)
-	python -m markdown $< > $@
+	python3 -m markdown $< > $@
 	cat $(FOOTER_FILE) >> $@
 
 
