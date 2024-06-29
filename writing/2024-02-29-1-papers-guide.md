@@ -28,7 +28,7 @@ Steps for inviting new members on the research project:
 ## Submitting a Research Paper to a Conference
 
 1. At start of project:
-    - Write the [abstract](https://blogs.bath.ac.uk/academic-and-employability-skills/2020/07/07/writing-an-abstract-a-six-point-checklist-with-samples/).
+    - Write the [abstract](http://www.easterbrook.ca/steve/2010/01/how-to-write-a-scientific-abstract-in-six-easy-steps/).
     - Write the list of scientific contributions.
     - Write the evaluation section as if you had completed the project.
     - Iterate on the above until you cannot find obvious flaws in the reasoning.
