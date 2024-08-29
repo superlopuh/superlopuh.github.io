@@ -89,4 +89,5 @@ There are few things that energise me more than being surrounded by people who a
 
 I managed to compile my minimal example of a Uiua program using xDSL at 22:47 on the last day of the meeting, during Kyoung's update on the state of the APL archive.
 Despite it being so late, many of the attendees stayed until midnight to hear my presentation about [the compiler](https://github.com/superlopuh/xuiua), and my vision of how MLIR and Array languages can complement each other in our new era of progressively weirder specialized linear algebra accelerators.
+(I'll write the compiler up more in the coming weeks.)
 I am elated to have attended this very special camp for Array Language enthusiasts, and look forward to the next one!
