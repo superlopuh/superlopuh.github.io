@@ -1,6 +1,6 @@
 # Iverson College 2024
 
-This post is a write up the daily experience of the [array programming languages workshop/hackathon/hippiethon](https://iversoncollege.com/participants/) I'm attending over the week.
+This post is a write up the daily experience of the [array programming languages workshop/hackathon/camp](https://iversoncollege.com/participants/) I attended this summer.
 
 ## Day 0: Sunday 18 August
 
@@ -8,7 +8,7 @@ The week started off with drinks and dinner for the attendees of the event.
 It was fun meeting all the people I've been listening to over the last three years on the [Array Cast](https://www.arraycast.com).
 I had some great chats with Kai, the implementor of [Uiua](https://www.uiua.org/), a stack-based modern array programming language, and Aaron Hsu, the implementor of Co-dfns, a compiler for a subset of Dyalog APL designed to target and run on GPUs.
 This work was the topic of Aaron's PhD thesis [A data parallel compiler hosted on the GPU](https://scholarworks.iu.edu/dspace/items/3ab772c9-92c9-4f59-bd95-40aff99e8c7a).
-This work seems super relevant to what I want to be doing on using SIMD for parsing and compiler implementation in general, so I'm already feeling like attending this was a pretty great thing for my PhD.
+It seems super relevant to what I want to be doing on using SIMD for parsing and compiler implementation in general, so I'm already feeling like attending this was a pretty great thing for my PhD.
 I'm looking forward to extracting as much knowledge from Aaron on writing compilers that can be SIMD accelerated over the next few days.
 Kai seemed to be pretty interested in helping me write a compiler for a subset of Uiua over the next few days, which I'm also very happy with, I look forward to where we get to!
 
@@ -85,7 +85,7 @@ My favourite point that was raised is that it's very difficult to explain the be
 
 One of my favourite aspects of this discussion, and the week overall, was the optimistic and positive outlook of everyone involved.
 It feels like everyone I met values array languages primarily for their subjective empowerment of the user, where the language is similar in spirit to Steve Jobs's _bicycle for the mind_ idea, letting us reach beyond our usual unaugmented cognitive abilities.
-There are few things that energise me more than being surrounded by people who are really enthusiastic about the work that they do, and this edition of Iverson College definitely delivered.
+There are few things that energise me more than being surrounded by people who are really enthusiastic about the work that they do, and this edition of Iverson College definitely delivered on this front.
 
 I managed to compile my minimal example of a Uiua program using xDSL at 22:47 on the last day of the meeting, during Kyoung's update on the state of the APL archive.
 Despite it being so late, many of the attendees stayed until midnight to hear my presentation about [the compiler](https://github.com/superlopuh/xuiua), and my vision of how MLIR and Array languages can complement each other in our new era of progressively weirder specialized linear algebra accelerators.
