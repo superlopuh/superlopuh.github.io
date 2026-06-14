@@ -80,8 +80,7 @@ Sourced Cambridge-based startups and conducted technical due diligence for inves
   company: "Cub3",
   dates: dates-helper(start-date: "September 2021", end-date: "January 2022"),
 )
-Led development of a platform that enabled third parties to employ Web3 tools, NFTs, and other blockchain technology to encourage positive behavior in online fan communities.
-Spearheaded the engineering team, developing a minimal viable product, identifying key features and coordinating efforts.
+Co-founded Cub3; led engineering from zero to MVP of a Web3 fan-engagement platform.
 
 #chiline()
 
