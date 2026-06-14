@@ -128,17 +128,18 @@ _Snips Platform – Labs_ - prototyped natural language parsers and applications
 
 #chiline()
 
-#work(
-  title: "Cofounder & CEO",
-  location: [Cambridge, UK],
-  company: "Blue Tatami",
-  dates: dates-helper(start-date: "2014", end-date: "2016"),
-)
 
 #grid(
   columns: (82%, 18%),
   gutter: 2%,
   [
+    #work(
+      title: "Cofounder & CEO",
+      location: [Cambridge, UK],
+      company: "Blue Tatami",
+      dates: dates-helper(start-date: "2014", end-date: "2016"),
+    )
+
     Blue Tatami was a startup developing personal productivity applications on iOS.
     We developed Dodeka, an iOS program for displaying calendar events on a 12-hour watch face.
     This program required a unique visualization designed from the ground up to show the current day's calendar events in the clearest way possible.
