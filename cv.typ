@@ -47,7 +47,7 @@ CGO 2025: #link("https://dl.acm.org/doi/10.1145/3696443.3708952")[A Multi-level 
 Led the development of a novel MLIR-based linear algebra micro-kernel backend that targets ETH's Snitch Core, yielding 95% FPU utilization and 94% of theoretical maximum throughput for our chosen kernels. Neural networks compiled via this micro-kernel outperform the state of the art by >20x.
 
 #link("https://dl.acm.org/doi/abs/10.1145/3696443.3708945")[Sidekick compilation with xDSL]
-Lead the development of #link("https://xdsl.dev/")[xDSL], a more approachable and hackable compiler framework.
+Led the development of #link("https://xdsl.dev/")[xDSL], a more approachable and hackable compiler framework.
 
 // - Developed a novel MLIR-based extensible interpreter, which I presented at the 2023 MLIR developer meeting.
 // - Mentored a number of undergraduate students for their dissertation work and internships, one of whom won silver at the #link("https://src.acm.org/winners/2024")[CGO 2024 student research competition].
