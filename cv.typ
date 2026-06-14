@@ -72,8 +72,7 @@ Received Bob Diamond prize for Computer Science.
   dates: dates-helper(start-date: "Oct 2024", end-date: "Present"),
 )
 
-Empowering researchers to start their first company.
-Sourcing Cambridge-based startups and doing due diligence for startups in CS.
+Sourced Cambridge-based startups and conducted technical due diligence for investment decisions.
 
 #work(
   title: "Co-Founder & Chief Engineering Officer",
