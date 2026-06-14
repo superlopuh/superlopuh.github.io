@@ -126,8 +126,7 @@ Enabled numerous features, such as on-demand availability of all Memories, autom
 
 #link("https://www.wired.com/story/snips-smartphone-ai/")[Keyboard extension] – a cutting-edge tool leveraging the Snips Personal Knowledge Graph to suggest phrases from their personal database as they entered text throughout iOS.
 - Created a software keyboard that interacted with supporting services (email, calendar, and contacts) to extract the necessary information as the user was typing.
-- Enhanced the functionality of the auto-completion and next-word recommendation.
-- Developed a bespoke binary-encoded language model that loaded in milliseconds and outperformed the built-in keyboard in terms of word recommendations, auto-complete, and auto-correction.
+- Developed a bespoke binary-encoded language model for auto-completion and next-word recommendation that loaded in milliseconds.
 // Results:
 //  - Greatly shortened the amount of time users had to spend looking for information.
 //  - Created a keyboard that was fully functional throughout the system and allowed users to search for specific data in their database.
