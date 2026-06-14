@@ -78,7 +78,7 @@ Sourced Cambridge-based startups and conducted technical due diligence for inves
   title: "Co-Founder & Chief Engineering Officer",
   location: "Los Angeles, CA",
   company: "Cub3",
-  dates: dates-helper(start-date: "September 2021", end-date: "January 2022"),
+  dates: dates-helper(start-date: "Sep 2021", end-date: "Jan 2022"),
 )
 Co-founded Cub3; led engineering from zero to MVP of a Web3 fan-engagement platform.
 
@@ -88,7 +88,7 @@ Co-founded Cub3; led engineering from zero to MVP of a Web3 fan-engagement platf
   title: "Software Engineer",
   location: "Cupertino, CA",
   company: "Apple",
-  dates: dates-helper(start-date: "March 2018", end-date: "September 2021"),
+  dates: dates-helper(start-date: "Mar 2018", end-date: "Sep 2021"),
 )
 
 #link("https://www.macrumors.com/guide/photos/")[Curated Library] – iOS 13 feature shipped to *1B+ devices*.
@@ -111,7 +111,7 @@ Co-founded Cub3; led engineering from zero to MVP of a Web3 fan-engagement platf
   title: "iOS Engineer",
   location: [Paris, France],
   company: [#link("https://snips.ai/")[Snips]],
-  dates: dates-helper(start-date: "January 2016", end-date: "September 2017"),
+  dates: dates-helper(start-date: "Jan 2016", end-date: "Sep 2017"),
 )
 
 #link("https://www.wired.com/story/snips-smartphone-ai/")[Keyboard extension] – a cutting-edge tool leveraging the Snips Personal Knowledge Graph to suggest phrases from their personal database as they entered text throughout iOS.
@@ -165,7 +165,7 @@ xDSL is a pure Python re-implementation of MLIR that makes modern compiler devel
 // #project(
 //   role: "Mentor",
 //   name: "xdsl-gui",
-//   dates: dates-helper(start-date: "September 2023", end-date: "March 2024"),
+//   dates: dates-helper(start-date: "Sep 2023", end-date: "Mar 2024"),
 // )
 // #TODO
 
