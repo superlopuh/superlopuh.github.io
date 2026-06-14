@@ -198,6 +198,6 @@ Taught introductory MLIR sessions at the
 
 #chiline()
 
-== Skills and Awards
+== Skills
 - *Programming Languages*: Python, Swift, Objective-C, C/C++, JavaScript/TypeScript, Assembly
 - *Languages*: Fluent in English, Russian, French
