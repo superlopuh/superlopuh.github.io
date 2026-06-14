@@ -42,6 +42,8 @@ Cambridge, UK |
 )
 Developing assembly-level MLIR representations and compiler tooling for linear-algebra micro-kernels on AI accelerators.
 
+Ongoing: Building MLIR representations and rewrite passes for x86 AVX-512 to generate L1-resident matrix multiplication kernels matching the state of the art.
+
 CGO 2025: #link("https://dl.acm.org/doi/10.1145/3696443.3708952")[A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions]
 Developed an MLIR-based linear algebra micro-kernel backend that targets ETH's Snitch Core, yielding 95% FPU utilization and 94% of theoretical maximum throughput for our chosen kernels. Neural networks compiled via this micro-kernel outperform output of LLVM by >20x.
 
