@@ -114,17 +114,14 @@ Co-founded Cub3; led engineering from zero to MVP of a Web3 fan-engagement platf
   dates: dates-helper(start-date: "Jan 2016", end-date: "Sep 2017"),
 )
 
-#link("https://www.wired.com/story/snips-smartphone-ai/")[Keyboard extension] – a cutting-edge tool leveraging the Snips Personal Knowledge Graph to suggest phrases from their personal database as they entered text throughout iOS.
-- Created a software keyboard that interacted with supporting services (email, calendar, and contacts) to extract the necessary information as the user was typing.
-- Developed a bespoke binary-encoded language model for auto-completion and next-word prediction that loaded in milliseconds.
-// Results:
-//  - Greatly shortened the amount of time users had to spend looking for information.
-//  - Created a keyboard that was fully functional throughout the system and allowed users to search for specific data in their database.
+#link("https://www.wired.com/story/snips-smartphone-ai/")[Keyboard extension] – system-wide iOS keyboard suggesting information from the Snips Personal Knowledge Graph.
+- Integrated email, calendar, and contacts for real-time context as the user typed.
+- Developed a binary-encoded language model for auto-completion and next-word prediction; loaded in milliseconds.
 
-_Snips Platform – Labs_ - prototyped natural language parsers and applications built on top of them.
-- Built an interactive voice assistant on iOS, that could handle queries such as "Show me photos from the restaurants I went to last week" using CKY parsing.
-- Built an interactive voice assistant engine that would fill in the gaps in user's queries.
-- Developed prototypes for voice-activated gadgets such as speakers and coffee machines.
+_Snips Platform – Labs_ - prototyped natural language parsers and voice assistants on iOS.
+- Built iOS voice assistant handling contextual queries (e.g. "Order cab to restaurant I went to last week.") via CKY parsing.
+- Built query gap-filling engine for incomplete voice queries (e.g. "Which restaurant? *A* or *B*?").
+- Prototyped voice UIs for embedded devices (speakers, appliances).
 
 #chiline()
 
