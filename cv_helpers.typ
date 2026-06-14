@@ -142,17 +142,6 @@
   )
 }
 
-#let project(
-  role: "",
-  name: "",
-  url: "",
-  dates: "",
-) = {
-  pad[
-    *#role*, #name #if url != "" { [(#link("https://" + url)[#url])] } else { "" } #h(1fr) #dates
-  ]
-}
-
 #let extracurriculars(
   activity: "",
   dates: "",

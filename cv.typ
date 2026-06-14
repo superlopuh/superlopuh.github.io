@@ -27,7 +27,6 @@ Cambridge, UK |
  * The following formatting functions are listed below
  * #edu(dates: "", degree: "", gpa: "", institution: "", location: "")
  * #work(company: "", dates: "", location: "", title: "")
- * #project(dates: "", name: "", role: "", url: "")
  * #extracurriculars(activity: "", dates: "")
  * There are also the following generic functions that don't apply any formatting
  * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
@@ -147,13 +146,6 @@ _Snips Platform – Labs_ - prototyped natural language parsers and voice assist
 
 == Projects
 
-// #project(
-//   role: "Mentor",
-//   name: "xdsl-gui",
-//   dates: dates-helper(start-date: "Sep 2023", end-date: "Mar 2024"),
-// )
-// #TODO
-
 // #let supercombinators_gh = "https://github.com/superlopuh/SuperCombinators"
 // #let supercombinators_medium = "https://medium.com/snips-ai/supercombinators-a-swifty-parser-combinator-framework-3eccd578d9e2"
 
@@ -169,20 +161,13 @@ _Snips Platform – Labs_ - prototyped natural language parsers and voice assist
 #let sdp_gh = "https://github.com/superlopuh/SDP-swift"
 #let sdp_medium = "https://medium.com/@superlopuh/raspberry-pi-ios-communication-in-bluetooth-c7599e257f2"
 
-#project(
-  role: "Author",
-  name: [
-    #link(sdp_gh)[Simple Datagram Protocol] |
-    #link(sdp_medium)[Article]],
-  dates: "2017",
-)
-Worked around Apple's requirement for devices to have Made for iPhone certification to access Bluetooth, by using BTLE to transfer configuration data to Raspberry Pis instead.
+2017:
+#link(sdp_gh)[Simple Datagram Protocol] |
+#link(sdp_medium)[Article] --
+Bypassed MFi restrictions by using BTLE to configure Raspberry Pis from iOS.
 
-#project(
-  role: "Author",
-  name: [#link("https://github.com/superlopuh/bioswift")[BioSwift]],
-  dates: "2015",
-)
+2015:
+#link("https://github.com/superlopuh/bioswift")[BioSwift] --
 First open-source framework in Swift to handle gene data.
 
 #chiline()
