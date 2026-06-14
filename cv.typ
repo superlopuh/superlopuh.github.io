@@ -223,7 +223,7 @@ First open-source framework in Swift to handle gene data.
 
 == Teaching
 
-Taught sessions introducting MLIR at the
+Taught sessions introducing MLIR at the
 #link("https://sites.google.com/view/mlirwinterschoolparis2025/home")[2025 MLIR Winter School],
 #link("https://mlir-school.github.io/summer-2025/")[2025 MLIR Summer School].
 
