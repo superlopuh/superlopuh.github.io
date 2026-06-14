@@ -68,7 +68,7 @@ Received Bob Diamond prize for Computer Science.
 == Employment History
 
 #work(
-  title: "Venture Fellow",
+  title: "Student Investment Partner (promoted from Venture Fellow)",
   location: "Cambridge, UK",
   company: "Creator Fund",
   dates: dates-helper(start-date: "Oct 2024", end-date: "Present"),
