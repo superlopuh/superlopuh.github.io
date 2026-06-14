@@ -41,7 +41,7 @@ Cambridge, UK |
   dates: dates-helper(start-date: "Jan 2023", end-date: "Present"),
   degree: [PhD in Computer Science supervised by #link("https://grosser.science/")[Tobias Grosser]],
 )
-Researching the use of MLIR and multi-level compilation to effectively target AI accelerators.
+Developing assembly-level MLIR representations and compiler tooling for linear-algebra micro-kernels on AI accelerators.
 
 CGO 2025: #link("https://dl.acm.org/doi/10.1145/3696443.3708952")[A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions]
 Led the development of a novel MLIR-based linear algebra micro-kernel backend that targets ETH's Snitch Core, yielding 95% FPU utilization and 94% of theoretical maximum throughput for our chosen kernels. Neural networks compiled via this micro-kernel outperform the state of the art by >20x.
