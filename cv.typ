@@ -15,7 +15,7 @@
 )
 
 Cambridge, UK |
-#link("mailto:Sasha.Lopoukhine@cl.cam.ac.uk")[Sasha.Lopoukhine\@cl.cam.ac.uk] |
+#link("mailto:sasha@lopoukhine.com")[sasha\@lopoukhine.com] |
 #link("https://lopoukhine.com")[lopoukhine.com] |
 #link("https://github.com/superlopuh/")[GitHub] |
 #link("https://scholar.google.com/citations?user=EiOczX8AAAAJ&hl=en")[Google Scholar]
