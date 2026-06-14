@@ -44,14 +44,14 @@ Cambridge, UK |
 Developing assembly-level MLIR representations and compiler tooling for linear-algebra micro-kernels on AI accelerators.
 
 CGO 2025: #link("https://dl.acm.org/doi/10.1145/3696443.3708952")[A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions]
-Led the development of a novel MLIR-based linear algebra micro-kernel backend that targets ETH's Snitch Core, yielding 95% FPU utilization and 94% of theoretical maximum throughput for our chosen kernels. Neural networks compiled via this micro-kernel outperform the state of the art by >20x.
+Developed an MLIR-based linear algebra micro-kernel backend that targets ETH's Snitch Core, yielding 95% FPU utilization and 94% of theoretical maximum throughput for our chosen kernels. Neural networks compiled via this micro-kernel outperform output of LLVM by >20x.
 
-#link("https://dl.acm.org/doi/abs/10.1145/3696443.3708945")[Sidekick compilation with xDSL]
-Led the development of #link("https://xdsl.dev/")[xDSL], a more approachable and hackable compiler framework.
+CGO 2025: #link("https://dl.acm.org/doi/abs/10.1145/3696443.3708945")[Sidekick compilation with xDSL]
+Leading development of xDSL, a Python-native, MLIR-compatible compiler framework used to prototype and ship compiler infrastructure in Python.
+Now at 1M+ PyPI downloads and 125+ contributors; production use includes quantum compilers (Riverlane, Xanadu, Eclipse) and Google LiteRT; research integrations include Devito and PSyclone.
+Featured in #link("https://maintainermonth.github.com/academia/xdsl-maintainer-spotlight")[GitHub Maintainer Month]; added to the CPython performance benchmark suite; cited in PEP 747.
 
-// - Developed a novel MLIR-based extensible interpreter, which I presented at the 2023 MLIR developer meeting.
-// - Mentored a number of undergraduate students for their dissertation work and internships, one of whom won silver at the #link("https://src.acm.org/winners/2024")[CGO 2024 student research competition].
-// Publications:
+Supervised four BA and one MA dissertation projects, one of which won silver at the #link("https://src.acm.org/winners/2024")[CGO 2024 student research competition].
 
 #edu(
   institution: "University of Cambridge",
@@ -146,14 +146,6 @@ _Snips Platform – Labs_ - prototyped natural language parsers and voice assist
 #chiline()
 
 == Projects
-
-#project(
-  role: "Maintainer",
-  name: [#link("https://xdsl.dev")[xDSL]],
-  dates: dates-helper(start-date: "Jan 2023", end-date: "Present"),
-)
-xDSL is a pure Python re-implementation of MLIR that makes modern compiler development more productive, accessible, and fun.
-
 
 // #project(
 //   role: "Mentor",
