@@ -230,6 +230,12 @@ First open-source framework in Swift to handle gene data.
   2024 LLVM Dev Mtg - Quidditch: An End-to-End Deep Learning Compiler for Occamy using IREE & xDSL
 ]
 
+== Teaching
+
+Taught sessions introducting MLIR at the
+#link("https://sites.google.com/view/mlirwinterschoolparis2025/home")[2025 MLIR Winter School],
+#link("https://mlir-school.github.io/summer-2025/")[2025 MLIR Summer School].
+
 #chiline()
 
 == Skills and Awards
