@@ -92,24 +92,18 @@ Spearheaded the engineering team, developing a minimal viable product, identifyi
   dates: dates-helper(start-date: "March 2018", end-date: "September 2021"),
 )
 
-#link("https://www.macrumors.com/guide/photos/")[Curated Library] – a novel iOS 13 feature providing user photos in a curated perspective free of memes, screenshots, and duplicate images, deployed to *over a billion devices*.
-- Responsible for efficient calculation of the unique #link("https://sixcolors.com/post/2019/09/13-features-of-ios-13-photos/")[Years/Months/Days] display on the Curated Library page, leveraging date, time, and other metadata to provide a beautiful, clutter-free, display of the user's photo library.
-- Carried out extensive performance and unit testing, building new profiling infrastructure in the process.
-*Patent*: US20200356227A1 – *Curated Media Library*
+#link("https://www.macrumors.com/guide/photos/")[Curated Library] – iOS 13 feature shipped to *1B+ devices*.
+- Built the #link("https://sixcolors.com/post/2019/09/13-features-of-ios-13-photos/")[Years/Months/Days] timeline from photo metadata. *Patent*: US20200356227A1 – *Curated Media Library*
+- Profiled and optimized Years/Months/Days timeline computation to ensure low-latency processing when taking photos.
 
-#link("https://support.apple.com/en-gb/guide/iphone/iphd4f70e68f/18.0/ios/18.0")[On-disk graph] – a novel infrastructure component of Photos Memories.
-Enabled numerous features, such as on-demand availability of all Memories, automatic song selection, and next memory suggestion.
-- Implemented a graph database to represent Memories data, accommodating roughly 1,000 times more data than the previous representation.
-- Led the migration of existing features to the new database, with minimal regressions, leading to a 9x reduction in testing time—from 1 hour and 30 minutes to 10 minutes.
-- Added many new unit tests to ensure the continued high quality of this component of the infrastructure.
+#link("https://support.apple.com/en-gb/guide/iphone/iphd4f70e68f/18.0/ios/18.0")[On-disk graph] – Implemented a graph database for Memories data (\~1000x prior capacity).
+- Unlocked on-demand availability of all Memories, automatic song selection, and next memory suggestion.
+- Led the migration of existing features with minimal regressions, reducing benchmark runtime *9×* (90 → 10 min).
 
-#link("https://www.youtube.com/watch?v=0TD96VTf0Xs&t=1402s")[Next memory suggestion] – a recommendation engine for the Memories interface that suggests new memories to watch
-- Developed a novel recommendation engine for Memories, leveraging features of the current Memory, and the user's library.
+#link("https://www.youtube.com/watch?v=0TD96VTf0Xs&t=1402s")[Next memory suggestion] – Developed a recommendation engine for Memories.
 
-#link("https://appleinsider.com/articles/21/06/07/memories-features-in-photos-app-gets-apple-music-integration-new-features-in-ios-15")[Integration of Apple Music into Memories] – a #link("https://support.apple.com/en-gb/118279")[feature] that lets users select any song from the Apple Music library to play in Memories.
-- Required handling enormous data sets including over a billion users’ photo libraries and Apple Music’s 90 million song library.
-- Led the feature extraction efforts to provide the recommendation engine with information from the Memories database to suggest appropriate music.
-- Provided Swift mentoring to the team and offered guidance on the project's software architecture and design patterns.
+#link("https://appleinsider.com/articles/21/06/07/memories-features-in-photos-app-gets-apple-music-integration-new-features-in-ios-15")[Apple Music in Memories] – Led feature extraction from the Memories DB for music recommendation.
+- Mentored the team on Swift and software architecture.
 
 #chiline()
 #pagebreak()
